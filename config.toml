@@ -1,3 +1,9 @@
 baseURL = "https://test-mayaton.netlify.com/"
 languageCode = "ja"
 title = "Test Hugo Site with netlify"
+
+[params]
+  description = "説明テスト"
+  googlefonts = "https://fonts.googleapis.com/css?family=Lobster|Lato:400,700"
+  fontfamily = "Lato,YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif"
+  logofontfamily = "Lobster, cursive"
