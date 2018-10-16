@@ -1,0 +1,3 @@
+baseURL = "https://test.netlify.com/"
+languageCode = "ja"
+title = "Test Hugo Site with netlify"
