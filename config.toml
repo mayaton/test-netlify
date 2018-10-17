@@ -2,6 +2,9 @@ baseURL = "https://test-mayaton.netlify.com/"
 languageCode = "ja"
 title = "Test Hugo Site with netlify"
 
+[permalinks]
+post = "/posts/:year/:month/:slug/"
+
 [params]
   description = "説明テスト"
   googlefonts = "https://fonts.googleapis.com/css?family=Lobster|Lato:400,700"
