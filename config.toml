@@ -1,12 +1,26 @@
 baseURL = "https://test-mayaton.netlify.com/"
-languageCode = "ja"
+languageCode = "ja-jp"
 title = "Test Hugo Site with netlify"
+theme = "hugo_theme_robust"
+hasCJKLanguage = true
+
+[params.author]
+  thumbnail = "images/author.png"
+  name = "まやとん"
+  description = "いんふらえんじにゃー</br>日々の備忘録をひっそりと書き連ねる場所。</p>"
+#  twitter = "xxxx"
+
+[taxonomies]
+  tag = "tags"
 
 [permalinks]
-post = "/posts/:year/:month/:slug/"
+  post = "/posts/:year/:month/:slug/"
 
 [params]
   description = "説明テスト"
   googlefonts = "https://fonts.googleapis.com/css?family=Lobster|Lato:400,700"
   fontfamily = "Lato,YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif"
   logofontfamily = "Lobster, cursive"
+
+[outputs]
+  page = [ "HTML", "AMP" ]

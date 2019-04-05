@@ -2,6 +2,7 @@
 title: "Listtest"
 date: 2018-10-16T22:36:09+09:00
 draft: false
+tags: [test]
 toc: true
 ---
 
